@@ -1,0 +1,21 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+  
+<!--suite name="ebay test suite" parallel="tests" thread-count="2"-->
+<!-- TestNG tests can be executed parallely from this file -->
+<!-- TestNG listener can be added in this file -->
+<!-- Data can be passed to test case from this file -->
+<suite name="ebay test suite"  verbose="1" >
+
+  <test name="ebay_Login_Test">
+    <classes>
+      <class name="com.ebay.testA"/>
+    </classes>
+  </test>
+  
+   <test name="ebay_add_Product_Test">
+    <classes>
+      <class name="com.ebay.testB"/>
+    </classes>
+  </test>
+  
+</suite>
